@@ -8,10 +8,11 @@
 
 ## Syntax
 
-SELECT <columns>
+SELECT columns
 
-FROM {<table> [alias]}+
-WHERE {<condition>}*
+FROM table (alias)
+
+WHERE conditions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczMjkyMjE3XX0=
+eyJoaXN0b3J5IjpbMTA5ODU3MTEyNF19
 -->
