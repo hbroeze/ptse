@@ -12,11 +12,11 @@ code: string
 codes --< countries
 ```
 ## Tables
-### countri
-|  |  |
+### countries
+|continent | country |
 |--|--|
-|  |  |
+|Europe  | Germany |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA3ODk3NzYsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTUyNjkyNzE5MSwtMzMyNDU1MzYzXX0=
 -->
