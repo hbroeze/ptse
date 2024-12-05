@@ -5,7 +5,11 @@ class countries {
 continent: string
 country : string
 }
+class codes {
+country : string
 
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkxNjc2MTcsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTMyNzc3NDE2NCwtMzMyNDU1MzYzXX0=
 -->
