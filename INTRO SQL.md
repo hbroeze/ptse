@@ -1,3 +1,5 @@
+<img style="float:right;" width=100 src="https://www.ptse.nl/ptse-logo.png" align="right">
+
 ##  What is SQL
 
  - Standardized query language
@@ -6,9 +8,10 @@
 
 ## Syntax
 
-SELECT {<column>}
+SELECT <columns>
+
 FROM {<table> [alias]}+
 WHERE {<condition>}*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNDc0ODUxXX0=
+eyJoaXN0b3J5IjpbNjczMjkyMjE3XX0=
 -->
