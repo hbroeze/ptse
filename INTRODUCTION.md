@@ -8,8 +8,6 @@
    - INCOSE ESEP
    - OMG UML/SysML
   - Specialized in 
-
-
 ## Objective
  - Intro SQL
  - Example database queries
@@ -17,5 +15,5 @@
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyODAxNzkyXX0=
+eyJoaXN0b3J5IjpbLTE1MDE5OTkzMjRdfQ==
 -->
