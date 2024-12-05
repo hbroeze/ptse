@@ -7,9 +7,12 @@ country : string
 }
 class codes {
 country : string
-
+code: srring
 }
+codes --< countries
+```
+## Tables
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzc3NDE2NCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTg3ODY2MTg3MywtMzMyNDU1MzYzXX0=
 -->
