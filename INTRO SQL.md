@@ -1,5 +1,6 @@
 ## Syntax
-SELECT 
+SELECT *
+FROM {<table> [alias]}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTU4NDg5M119
+eyJoaXN0b3J5IjpbLTY1ODk2MTkzOV19
 -->
