@@ -6,8 +6,12 @@
  - Widgets
  - Scripting
 
+## How to use
+
+ - Next or alternative to Lucene
+ - SQL:() encapsulated
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIzMDIxOTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NTk2NDkzODFdfQ==
 -->
