@@ -5,9 +5,10 @@
  - Henk Broeze, owner
  - Professional in Tools for Systems Engineering
  - Certifications
- - List item
+   - INCOSE ESEP
+   - OMG UML/SysML
+  - Specialized in 
 
-INCOSE ESEP
 
 ## Objective
  - Intro SQL
@@ -16,5 +17,5 @@ INCOSE ESEP
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTE4MjY2MV19
+eyJoaXN0b3J5IjpbNDIyODAxNzkyXX0=
 -->
