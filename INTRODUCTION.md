@@ -2,8 +2,12 @@
 
 ## Who
 
+ - Henk Broeze, owner
  - Professional in Tools for Systems Engineering
- - INCOSE
+ - Certifications
+ - List item
+
+INCOSE ESEP
 
 ## Objective
  - Intro SQL
@@ -12,5 +16,5 @@
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMzA0ODk0XX0=
+eyJoaXN0b3J5IjpbMTAxMTE4MjY2MV19
 -->
