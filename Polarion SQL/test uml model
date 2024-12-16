@@ -1,0 +1,152 @@
+# UML diagram
+```mermaid
+classDiagram
+
+object analyticsConsents <<enumeration>>
+analyticsConsents : accepted
+analyticsConsents : declined
+object approval_status <<enumeration>>
+approval_status : waiting
+approval_status : approved
+approval_status : disapproved
+object build_wi_link_role <<enumeration>>
+object commentTags <<enumeration>>
+commentTags : approvals
+commentTags : secure
+commentTags : signatures
+object documents.document_status <<enumeration>>
+documents.document_status : draft
+documents.document_status : active
+documents.document_status : obsolete
+object documents.document_type <<enumeration>>
+documents.document_type : productSpecification
+documents.document_type : testSpecification
+documents.document_type : generic
+object feature_link_type <<enumeration>>
+feature_link_type : excluded
+feature_link_type : included
+feature_link_type : implicitly-included
+object hyperlink_role <<enumeration>>
+hyperlink_role : ref_int
+hyperlink_role : ref_ext
+object platform <<enumeration>>
+platform : windows
+platform : linux
+platform : osx
+platform : other
+object priority <<enumeration>>
+priority : 90.0
+priority : 70.0
+priority : 50.0
+priority : 30.0
+priority : 10.0
+object resolution <<enumeration>>
+resolution : done
+resolution : wontdo
+resolution : duplicate
+resolution : incomplete
+resolution : cannotreproduce
+resolution : invalid
+resolution : later
+object result <<enumeration>>
+result : passed
+result : failed
+result : blocked
+object script_type <<enumeration>>
+script_type : condition
+script_type : function
+script_type : saveHook
+object status <<enumeration>>
+status : open
+status : inprogress
+status : reopened
+status : done
+status : verified
+status : rejected
+object testing.test_result <<enumeration>>
+testing.test_result : passed
+testing.test_result : failed
+testing.test_result : blocked
+object testrun_selectTestCasesBy <<enumeration>>
+testrun_selectTestCasesBy : manualSelection
+testrun_selectTestCasesBy : staticQueryResult
+testrun_selectTestCasesBy : dynamicQueryResult
+testrun_selectTestCasesBy : staticLiveDoc
+testrun_selectTestCasesBy : dynamicLiveDoc
+testrun_selectTestCasesBy : automatedProcess
+object variationType <<enumeration>>
+variationType : mandFeature
+variationType : optFeature
+variationType : orFeature
+variationType : altFeature
+object workitem_link_role <<enumeration>>
+workitem_link_role : parent
+workitem_link_role : implements
+workitem_link_role : depends_on
+workitem_link_role : duplicates
+workitem_link_role : follow_up
+workitem_link_role : verifies
+workitem_link_role : specifies
+workitem_link_role : triggered_by
+workitem_link_role : uses
+workitem_link_role : affects
+workitem_link_role : tracks
+workitem_link_role : derived_from
+workitem_link_role : branched_from
+workitem_link_role : relates_to
+object workitem_type <<enumeration>>
+workitem_type : userstory
+workitem_type : requirement
+workitem_type : epic
+workitem_type : task
+workitem_type : testcase
+workitem_type : issue
+workitem_type : changerequest
+workitem_type : release
+object Collection <<enumeration>>
+Collection : 1
+object User_Story <<WorkItem-type>>
+User_Story : Estimate in Story Points (storyPoints) : String
+object Epic <<WorkItem-type>>
+Epic : Epic Estimate (epicEstimate) : tshirt-sizes
+Epic : Target Version (targetVersion) : @plantemplate.id:release
+Epic : Child Story Points (childStoryPoints) : String
+object Issue <<WorkItem-type>>
+Issue : Occurred in Version (occurredInVersion) : String
+Issue : Target Version (targetVersion) : @plantemplate.id:release
+object Release <<WorkItem-type>>
+Release : Release Plan (releasePlan) : @plantemplate.id:release
+Release : Build ID (buildId) : String
+Release : Public Launch (publicLaunch) : String
+Release : Feature Freeze Date (featureFreezeDate) : String
+Release : Code Freeze Date (codeFreezeDate) : String
+Release : Release PM (releasePM) : @userproject_assignable
+Release : Release QA (releaseQA) : @userproject_assignable
+Release : QA Assessment (qaAssessment) : html
+Release : Release Test Evidence (releaseTestEvidence) : enum:@testRunList
+Release : Build (build) : @build
+object Product_Specification <<Module-type>>
+Product_Specification : Version (version) : String
+object Test_Specification <<Module-type>>
+Test_Specification : Version (version) : String
+object Generic <<Module-type>>
+Generic : Version (version) : String
+Issue --> User_Story : implements
+User_Story --> User_Story : depends_on
+User_Story --> Epic : depends_on
+User_Story --> Issue : depends_on
+User_Story --> Release : depends_on
+Epic --> User_Story : depends_on
+Epic --> Epic : depends_on
+Issue --> Issue : depends_on
+User_Story --> User_Story : duplicates
+Epic --> Epic : duplicates
+Issue --> Issue : duplicates
+Release --> Release : duplicates
+User_Story --> User_Story : follow_up
+Epic --> Epic : follow_up
+Issue --> User_Story : follow_up
+Issue --> Issue : follow_up
+Release --> Release : uses
+Issue --> Release : affects
+```
